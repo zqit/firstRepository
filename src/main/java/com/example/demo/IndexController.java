@@ -10,6 +10,7 @@ public class IndexController {
     @RequestMapping("index")
     @ResponseBody
     public String Index(){
+        System.out.println("2.0");
         return "hello idea springboot";
     }
 }
